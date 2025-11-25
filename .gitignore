@@ -1,0 +1,66 @@
+concepts/*
+output.md
+
+# ----------------------
+# Jupyter Notebooks
+# ----------------------
+# Checkpoints are auto-generated backups that clutter the repo
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Optional: Ignore exported formats if you only want the raw .ipynb source
+# *.html
+# *.pdf
+
+# ----------------------
+# Python
+# ----------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# ----------------------
+# Virtual Environments
+# ----------------------
+# It is best practice to keep envs local and not commit them
+venv/
+.venv/
+env/
+ENV/
+
+# ----------------------
+# Node.js (Based on your ignore.json)
+# ----------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ----------------------
+# Operating System & Editors
+# ----------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# VS Code / IDE settings (optional: keep if you share settings, ignore if personal)
+.vscode/
+.idea/
+
+# ----------------------
+# Data & Secrets
+# ----------------------
+# Prevent committing datasets or secrets accidentally
+*.csv
+*.xlsx
+*.zip
+.env
+secrets.json
